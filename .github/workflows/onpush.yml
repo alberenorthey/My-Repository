@@ -1,0 +1,10 @@
+
+on:
+  push:
+
+jobs:
+  myjob:
+    runs-on: ubuntu-22.04
+    steps:
+    - run: |
+        echo HELLO
